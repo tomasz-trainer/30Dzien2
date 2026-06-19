@@ -6,4 +6,5 @@
   <Project Path="P05Listy/P05Listy.csproj" Id="29552a65-8259-43de-9faa-c2563a337892" />
   <Project Path="P06ZadaneListy/P06ZadaneListy.csproj" Id="fe50ce17-d6da-4449-99ed-9eddae112251" />
   <Project Path="P07ZadanieZawodnicy/P07ZadanieZawodnicy.csproj" Id="db74c3b5-34d0-4832-bc61-e20c510c8215" />
+  <Project Path="P08TabliceWielowymiarowe/P08TabliceWielowymiarowe.csproj" Id="585c354e-1182-459c-bfe2-d3a6a28969ff" />
 </Solution>
