@@ -8,4 +8,6 @@
   <Project Path="P07ZadanieZawodnicy/P07ZadanieZawodnicy.csproj" Id="db74c3b5-34d0-4832-bc61-e20c510c8215" />
   <Project Path="P08TabliceWielowymiarowe/P08TabliceWielowymiarowe.csproj" Id="585c354e-1182-459c-bfe2-d3a6a28969ff" />
   <Project Path="P09TablicieWielowymiaroweZadanie/P09TablicieWielowymiaroweZadanie.csproj" Id="4e5ec3ca-6b86-4357-a59a-3d257f498a51" />
+  <Project Path="P10TabliceTablic/P10TabliceTablic.csproj" Id="b15d12e3-6b81-4275-af6f-bee84a27dcfc" />
+  <Project Path="P11ListaList/P11ListaList.csproj" Id="a8493dd8-280a-4bb7-adcd-3615ea51247b" />
 </Solution>
