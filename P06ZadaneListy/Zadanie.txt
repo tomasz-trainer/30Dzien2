@@ -5,7 +5,7 @@ Warszawa 26
 Kraków 21
 Wrocław 22
 Gdańsk 24
-
+ 
 Program w konsoli wczytuje nazwe miasta np Kraków 
 i podaje jego temperaturę. 
 kiedy pobierana jest temperatura dla miasta, jej wartość będzie zapisywana w liście.
