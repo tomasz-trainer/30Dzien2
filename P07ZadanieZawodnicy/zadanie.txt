@@ -14,3 +14,15 @@ Wymagania:
 
 4) Nazwa pliku wynikowego: Nazwa pliku wynikowego powinna być sformatowana następująco 
    "{nazwa kraju}.txt"
+
+Przykład:
+Dla listy
+ID;Imię;Nazwisko;Kraj;Waga;Wzrost;Data urodzenia
+1;Erling;Haaland;Norwegia;88;194;2000-07-21
+2;Jude;Bellingham;Anglia;75;186;2003-06-29
+3;Mohamed;Salah;Egipt;71;175;1992-06-15
+4;Harry;Kane;Anglia;86;188;1993-07-28
+
+Program pownien zwrócić plik "Anglia.txt" z zawartością:
+Jude Bellingham
+Harry Kane
