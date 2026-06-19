@@ -4,7 +4,7 @@ np:
 Warszawa 26
 Kraków 21
 Wrocław 22
-Gdańsk 24
+Gdańsk 24 
  
 Program w konsoli wczytuje nazwe miasta np Kraków 
 i podaje jego temperaturę. 
