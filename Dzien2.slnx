@@ -1,8 +1,8 @@
 <Solution>
-  <Project Path="P01Tablice/P01Tablice.csproj" />
-  <Project Path="P02ZadanieTablice/P02ZadanieTablice.csproj" />
-  <Project Path="P03OblugaBledow/P03OblugaBledow.csproj" />
-  <Project Path="P04onwersjaTablicOrazNapisow/P04onwersjaTablicOrazNapisow.csproj" />
-  <Project Path="P05Listy/P05Listy.csproj" />
-  <Project Path="P06ZadaneListy/P06ZadaneListy.csproj" />
+  <Project Path="P01Tablice/P01Tablice.csproj" Id="2970d740-b6d5-4d25-b263-efeb834b4912" />
+  <Project Path="P02ZadanieTablice/P02ZadanieTablice.csproj" Id="06900efb-192a-4c49-b201-d2520d85f62d" />
+  <Project Path="P03OblugaBledow/P03OblugaBledow.csproj" Id="0ca93ca0-469e-4f84-a180-3904b59313b7" />
+  <Project Path="P04onwersjaTablicOrazNapisow/P04onwersjaTablicOrazNapisow.csproj" Id="450834ef-b78e-4649-bcf2-20d963ccdd16" />
+  <Project Path="P05Listy/P05Listy.csproj" Id="29552a65-8259-43de-9faa-c2563a337892" />
+  <Project Path="P06ZadaneListy/P06ZadaneListy.csproj" Id="fe50ce17-d6da-4449-99ed-9eddae112251" />
 </Solution>
