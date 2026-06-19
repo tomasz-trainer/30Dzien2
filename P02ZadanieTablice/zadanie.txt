@@ -12,3 +12,6 @@ ponumerowane w nawiasach kwadratowych, np.:
 
 
 Program liczy, które miasto ma najwięcej liter i wyświetla jego nazwę oraz liczbę liter.
+
+
+kontynuujemy o 9:30 

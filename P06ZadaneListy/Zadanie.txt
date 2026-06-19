@@ -1,0 +1,23 @@
+Stwórz ręcznie plik z miastami i temperaturą dla danego miasta.
+np:
+
+Warszawa 26
+Kraków 21
+Wrocław 22
+Gdańsk 24
+
+Program w konsoli wczytuje nazwe miasta np Kraków 
+i podaje jego temperaturę. 
+kiedy pobierana jest temperatura dla miasta, jej wartość będzie zapisywana w liście.
+
+Po każdym pobraniu temperatury program powinien wyświetlać średnią temperaturę z aktualnej listy
+(wraz z nazwami wcześniej wczytanych miast)
+
+Przykładowy Output:
+Podaj nazwę miasta: Warszawa
+Aktualna temperatura w Warszawie to: 25°C
+Średnia temperatura z listy (Warszawa) to: 25°C
+Podaj nazwę miasta: Berlin
+Aktualna temperatura w Berlinie to: 22°C
+Średnia temperatura z listy (Warszawa, Berlin) to: 23.5°C
+Podaj nazwę miasta:

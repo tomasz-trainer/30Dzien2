@@ -1,4 +1,8 @@
 <Solution>
   <Project Path="P01Tablice/P01Tablice.csproj" />
   <Project Path="P02ZadanieTablice/P02ZadanieTablice.csproj" />
+  <Project Path="P03OblugaBledow/P03OblugaBledow.csproj" />
+  <Project Path="P04onwersjaTablicOrazNapisow/P04onwersjaTablicOrazNapisow.csproj" />
+  <Project Path="P05Listy/P05Listy.csproj" />
+  <Project Path="P06ZadaneListy/P06ZadaneListy.csproj" />
 </Solution>
