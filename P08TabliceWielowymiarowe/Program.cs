@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -63,7 +64,10 @@ namespace P08TabliceWielowymiarowe
             {
                 for (int j = 0; j < tablica2D.GetLength(1); j++)
                 {
-                    if (j == tablica2D.GetLength(1) - 1)
+                    // czy ostatniy element w wierszu? Jeśli tak, to nie dodajemy przecinka na końcu
+                    // j => 0, 1, 2, 3
+                    // tablica2D.GetLength(1) => 4
+                    if (j == tablica2D.GetLength(1) - 1) // -1, bo indeksy zaczynają się od 0
                     {
                         Console.Write($"{tablica2D[i, j]}");
                     }
@@ -76,9 +80,14 @@ namespace P08TabliceWielowymiarowe
             }
 
             // Test obliczeń na tabliach wielowymiarowych
-            int n = 100; // rozmiar tablicy n x n
+            int n = 10000; // rozmiar tablicy n x n
             int[,] t = new int[n, n]; // tworzenie tablicy dwuwymiarowej o rozmiarze n x n
             int counter = 0; // licznik do wypełniania tablicy wartościami
+            // Cel: wypełnienie tablicy wartościami od 0 do n*n-1
+            // dla tablicy 3x3 wyglądałoby to tak:
+            // 0, 1, 2
+            // 3, 4, 5
+            // 6, 7, 8
             for (int i = 0; i < n; i++) // pętla po wierszach
             {
                 for (int j = 0; j < n; j++) // pętla po kolumnach
@@ -86,16 +95,44 @@ namespace P08TabliceWielowymiarowe
                     t[i, j] = counter++; // przypisanie wartości do elementu tablicy i zwiększenie licznika
                 }
             }
+            //// Wyświetlanie tablicy t
+            //for (int i = 0; i < n; i++)
+            //{
+            //    for (int j = 0; j < n; j++)
+            //    {
+            //        Console.Write($"{t[i, j]}, ");
+            //    }
+            //    Console.WriteLine();
+            //}
 
-            // Wyświetlanie tablicy t
+            Stopwatch st = new Stopwatch();
+            // Obliczenie sumy wszystkich elementów tablicy
+            int suma1 = 0; // zmienna do przechowywania sumy
+            st.Start(); // rozpoczęcie pomiaru czasu
             for (int i = 0; i < n; i++)
             {
                 for (int j = 0; j < n; j++)
                 {
-                    Console.Write($"{t[i, j]}, ");
+                    suma1 += t[i, j]; // dodanie wartości elementu tablicy do sumy
                 }
-                Console.WriteLine();
             }
+            double t1 = st.Elapsed.TotalSeconds;
+            Console.WriteLine($"Suma wszystkich elementów tablicy t to: {suma1}"); // wyświetlenie wyniku
+            Console.WriteLine($"Suma obliczona w czasie t = {t1} [ms]");
+
+            int suma2 = 0; // zmienna do przechowywania sumy
+            st.Restart(); // rozpoczęcie pomiaru czasu
+            for (int i = 0; i < n; i++)
+            {
+                for (int j = 0; j < n; j++)
+                {
+                    suma2 += t[j, i]; // dodanie wartości elementu tablicy do sumy
+                }
+            }
+            double t2 = st.Elapsed.TotalSeconds;
+            Console.WriteLine($"Suma wszystkich elementów tablicy t to: {suma2}"); // wyświetlenie wyniku
+            Console.WriteLine($"Suma obliczona w czasie t = {t2} [ms]");
+
         }
     }
 }
