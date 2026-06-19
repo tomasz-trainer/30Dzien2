@@ -4,9 +4,11 @@ w nowym pliku tekstowym.
 
 Wymagania:
 1) Wczytanie danych z pliku tekstowego, zawodnicy.csv
+
 2) Wybór kraju: Poproś użytkownika o podanie nazwy kraju, dla którego chce wygenerować listę zawodników.
-   Program powinien być wrażliwy na wielkość liter, co nazacza, że "Polska" i "polska" będą traktowane 
-   jako różne kraje.
+   Program powinien być niewrażliwy na wielkość liter, co nazacza, że "Polska" i "polska" będą traktowane 
+   jako ten sam kraj.
+
 3) Generowanie listy zawodników: Na podstawie wprowadzonej przez użytkownika nazwy kraju,
    wygeneru listę zawodników z tego kraju. Zapisz informację w nowym pliku.
 
