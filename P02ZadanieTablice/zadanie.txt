@@ -1,0 +1,14 @@
+Stwórz manulanie na dysku plik zawierający zestaw przykładowych miast, 
+takich jak Warszawa, Kraków i Wrocław, każde w osobnym wierszu. 
+
+Następnie program powinien wczytać te dane do tablicy przy użyciu funkcji File.ReadAllLines.
+
+Po uruchomieniu programu, użytkownikowi zostaną wyświetlone wszystkie dostępne miasta, 
+ponumerowane w nawiasach kwadratowych, np.:
+
+[1] Warszawa 
+[2] Kraków
+[3] Wrocław
+
+
+Program liczy, które miasto ma najwięcej liter i wyświetla jego nazwę oraz liczbę liter.

@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="P01Tablice/P01Tablice.csproj" />
+  <Project Path="P02ZadanieTablice/P02ZadanieTablice.csproj" />
+</Solution>
