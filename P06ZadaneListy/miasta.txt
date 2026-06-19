@@ -1,0 +1,4 @@
+Warszawa 26
+Kraków 21
+Wrocław 22
+Gdańsk 24 

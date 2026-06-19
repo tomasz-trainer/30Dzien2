@@ -72,7 +72,5 @@ namespace P01Tablice
 
 
         }
-
-        }
     }
 }
