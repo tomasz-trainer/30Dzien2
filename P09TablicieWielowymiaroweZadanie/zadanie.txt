@@ -3,6 +3,7 @@ Napisz program, Który wczyta informację o zawodnikach sportowych z pliku tekst
 
 Dane znajdują się w pliku tekstowym "zawodnicy.csv" w formacie:
 
+Zawartpść pliku "zawodnicy.csv":
 ID;Imię;Nazwisko;Kraj;Waga;Wzrost;Data urodzenia
 1;Kylian;Mbappé;Francja;75;178;1998-12-20
 2;Erling;Haaland;Norwegia;88;194;2000-07-21
@@ -14,3 +15,7 @@ ID;Imię;Nazwisko;Kraj;Waga;Wzrost;Data urodzenia
 8;Kevin;De Bruyne;Belgia;70;181;1991-06-28
 9;Mohamed;Salah;Egipt;71;175;1992-06-15
 10;Harry;Kane;Anglia;86;188;1993-07-28
+
+Oczekiwanie działania programu:
+string[,] zawodnicy = new stinrg[?,?];
+Console.WriteLine(zawodnicy[3,2]); // Messi

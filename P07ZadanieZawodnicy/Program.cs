@@ -15,6 +15,7 @@ namespace P07ZadanieZawodnicy
 
             // Wczytanie pliku do pamięci
             string[] wiersze = File.ReadAllLines(pathToFile);
+            File.ReadAllText
 
             // Wczytanie nazwy kraju od użytkownika
             Console.WriteLine("Proszę podać kraj:");
